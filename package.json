@@ -1,0 +1,28 @@
+{
+  "name": "pictransform",
+  "version": "1.0.0",
+  "description": "Simple change image file type",
+  "main": "./bin/index.js",
+  "bin": {
+    "picTransform": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jame3032002/picTransform"
+  },
+  "keywords": [
+    "change image type",
+    "image",
+    "change image to webp",
+    "change image to jpg"
+  ],
+  "author": "Itsaraphong Sangkamongkholgit (https://github.com/jame3032002)",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.2",
+    "yargs": "^17.7.2"
+  }
+}
